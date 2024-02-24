@@ -1,0 +1,36 @@
+body{
+    display: flex;
+}
+
+.gray{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(71, 70, 70);
+    span{
+        font-size: 16px;
+       color: green;
+        font-weight: bold;
+    }
+    .form-control{
+        width: 250px;
+    }
+    p{
+        color: red;
+        font-size: 14px;
+      }
+}
+.black{
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+
+    .show{
+      margin-left: 100px;
+      p{
+        font-size: 14px;
+        color: yellow;
+      }
+    
+
+    }
+}
